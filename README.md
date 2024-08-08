@@ -24,6 +24,10 @@ I originally created this script to find which VM's a vulnerable piece of softwa
  - Run the script with the appropriate parameters for the output CSV
    path, tenant ID, and input CSV path.
 
+## Example Command
+
+    .\BulkAzVMTasks.ps1 -OutputCsvPath 'C:\path\to\your\VMRunCommandResults.csv' -TenantId 'your-tenant-id' -InputCsvPath 'C:\path\to\your\input.csv'
+
 ## Dependencies
 
  - **Azure PowerShell Module:** The script requires the Az module for
@@ -33,7 +37,3 @@ I originally created this script to find which VM's a vulnerable piece of softwa
  - **PowerShell Script to Execute:** The script you would like to execute on
    VM's should be available in the same directory or provide the correct
    path.
-
-## Example Command
-
-    .\BulkAzVMTasks.ps1 -OutputCsvPath 'C:\path\to\your\VMRunCommandResults.csv' -TenantId 'your-tenant-id' -InputCsvPath 'C:\path\to\your\input.csv'
