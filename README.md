@@ -26,6 +26,8 @@ I originally created this script to find which VM's a vulnerable piece of softwa
  - Run the script with the appropriate parameters for the output CSV
    path, tenant ID, and input CSV path.
 
+   ![image](https://github.com/user-attachments/assets/97fc0f14-79f4-46ef-8ce7-ebc5583ef1b0)
+
 ## Example Command
 
     .\BulkAzVMTasks.ps1 -OutputCsvPath 'C:\path\to\your\VMRunCommandResults.csv' -TenantId 'your-tenant-id' -InputCsvPath 'C:\path\to\your\input.csv'
