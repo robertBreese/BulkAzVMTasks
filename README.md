@@ -21,12 +21,16 @@ I originally created this script to find which VM's a vulnerable piece of softwa
 ## Usage
 
  - Prepare a CSV file with subscription IDs as headers and resource
-   groups as rows. These are the RG's with VM's you want this script to be ran on. You can export all resource groups in a subscription via Powershell or the Azure Portal.
+   groups as rows. These are the RG's with VM's you want this script to be ran on. You can export all resource groups in a subscription via Powershell or the Azure Portal, and copy them into the input.csv.
    
  - Run the script with the appropriate parameters for the output CSV
    path, tenant ID, and input CSV path.
 
    ![image](https://github.com/user-attachments/assets/97fc0f14-79f4-46ef-8ce7-ebc5583ef1b0)
+
+   ![image](https://github.com/user-attachments/assets/ddd52416-f782-4a10-9e75-cf3c07a49f2d)
+
+   ![image](https://github.com/user-attachments/assets/e11e3ec5-ee2b-468d-b436-259ecfad4b8f)
 
 ## Example Command
 
