@@ -4,6 +4,8 @@ This is a PowerShell script designed to perform bulk operations on Azure Virtual
 
 I originally created this script to find which VM's a vulnerable piece of software was install on.
 
+**Can only run scripts that do not require input**
+
 **This script does not support Linux VMs**
 
 ## **How It Works**
