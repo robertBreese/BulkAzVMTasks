@@ -4,6 +4,8 @@ This is a PowerShell script designed to perform bulk operations on Azure Virtual
 
 I originally created this script to find which VM's a vulnerable piece of software was install on.
 
+**This script does not support Linux VMs**
+
 ## **How It Works**
 
 **CSV Input:** The script reads input from a CSV file where the headers are subscription IDs, and the rows contain the names of resource groups. Each cell in the CSV specifies which resource groups belong to which subscription.
